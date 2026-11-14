@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- USB-UART мосты, встречающиеся на Arduino и клонах (vendor-id/product-id в десятичном виде) -->
+<resources>
+    <!-- 0x2341, 0x2A03: Arduino (ATmega16U2 / CDC) -->
+    <usb-device vendor-id="9025" />
+    <usb-device vendor-id="10755" />
+
+    <!-- 0x1A86 / 0x7523, 0x5523: CH340 / CH341 (клоны Nano и Uno) -->
+    <usb-device vendor-id="6790" product-id="29987" />
+    <usb-device vendor-id="6790" product-id="21795" />
+
+    <!-- 0x0403 / 0x6001, 0x6015: FTDI FT232R, FT231X -->
+    <usb-device vendor-id="1027" product-id="24577" />
+    <usb-device vendor-id="1027" product-id="24597" />
+
+    <!-- 0x10C4 / 0xEA60: CP210x -->
+    <usb-device vendor-id="4292" product-id="60000" />
+
+    <!-- 0x067B / 0x2303: Prolific PL2303 -->
+    <usb-device vendor-id="1659" product-id="8963" />
+</resources>

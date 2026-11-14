@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PSA CAN Lab</string>
+
+    <string name="link_searching">Адаптер не подключён</string>
+    <string name="link_permission">Нет доступа к USB-устройству — подтвердите запрос</string>
+    <string name="link_connected">Подключено: %1$s, ожидание ответа прошивки…</string>
+    <string name="link_ready">Адаптер %1$s</string>
+    <string name="link_error">Связь потеряна: %1$s</string>
+
+    <string name="mode_idle">Отключено</string>
+    <string name="mode_sniff">Шина</string>
+    <string name="mode_bench">Стенд</string>
+    <string name="idle_hint">Выберите, к чему подключён адаптер.\n\n«Шина» — настоящая шина автомобиля: адаптер только слушает и ничего не передаёт.\n\n«Стенд» — к адаптеру подключён только штатный дисплей: адаптер изображает BSI, магнитолу и кнопки панели. Если на шине найдётся настоящий BSI, режим не включится.</string>
+    <string name="bench_refused">На шине есть настоящий BSI — это автомобиль, а не стенд. Режим стенда не включён.</string>
+
+    <string name="filter_hint">Фильтр ID через пробел, например 1A1 0F6</string>
+    <string name="pause">Пауза</string>
+    <string name="resume">Продолжить</string>
+    <string name="clear">Сброс</string>
+    <string name="record">Запись в файл</string>
+    <string name="record_started">Запись: %1$s</string>
+    <string name="record_stopped">Запись остановлена: %1$s</string>
+    <string name="record_failed">Не удалось начать запись: %1$s</string>
+    <string name="table_header">ID  DLC ДАННЫЕ                   ПЕРИОД    КАДРОВ  ОПИСАНИЕ</string>
+    <string name="table_empty">Кадров пока нет</string>
+    <string name="lost_frames">Потеряно кадров: %1$d — порт не успевает за шиной</string>
+
+    <string name="title_car">Автомобиль</string>
+    <string name="title_message">Сообщение бортового компьютера</string>
+    <string name="title_radio">Магнитола</string>
+    <string name="title_buttons">Кнопки панели</string>
+    <string name="title_raw">Произвольный кадр</string>
+    <string name="title_display_frames">Кадры от дисплея</string>
+    <string name="title_log">Обмен с адаптером</string>
+
+    <string name="ignition">Зажигание</string>
+    <string name="reverse">Задняя передача</string>
+    <string name="dark">Тёмный режим дисплея</string>
+    <string name="radio">Магнитола включена</string>
+    <string name="cycle">Перебор всех сообщений</string>
+    <string name="outside_temp">Наружная температура: %1$d °C</string>
+    <string name="coolant_temp">Температура двигателя: %1$d °C</string>
+    <string name="brightness">Яркость подсветки: %1$d</string>
+    <string name="volume">Громкость: %1$d</string>
+    <string name="message_show">Показать</string>
+    <string name="message_hide">Скрыть</string>
+    <string name="raw_hint">ID и байты в HEX, например 3E5 40 0 0 0 0 0</string>
+    <string name="raw_send">Отправить</string>
+</resources>
